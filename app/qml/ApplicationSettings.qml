@@ -98,8 +98,8 @@ QtObject {
 
     property real rbgShift: 0.0
 
-    property real _margin: 0.5
-    property real _frameMargin: 0.5
+    property real _margin: 5
+    property real _frameMargin: 10
 
     property real margin: Utils.lint(1.0, 20.0, _margin)
     property real frameMargin: Utils.lint(1.0, 50.0, _frameMargin)

@@ -28,8 +28,15 @@ function clamp(x, min, max) {
 }
 
 function lint(a, b, t) {
+    // Replace 20.0 and 50.0 to increase margin
+    if (b === 20.0) {
+        b = 100.0;
+    } else if (b === 50.0) {
+        b = 200.0;
+    }
     return (1 - t) * a + (t) * b;
 }
+
 
 function mix(c1, c2, alpha) {
     return Qt.rgba(c1.r * alpha + c2.r * (1-alpha),
