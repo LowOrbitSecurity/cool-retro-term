@@ -1,4 +1,14 @@
 # cool-retro-term
+Modifies parameters to make margins bigger.
+
+Before:
+
+![image](https://github.com/user-attachments/assets/6b68e545-226b-43da-a2ba-40427a0cc7d0)
+
+After:
+
+![image](https://github.com/user-attachments/assets/13bc6ece-b6f6-47ca-a645-ece5f36ab6d0)
+
 
 |> Default Amber|C:\ IBM DOS|$ Default Green|
 |---|---|---|
